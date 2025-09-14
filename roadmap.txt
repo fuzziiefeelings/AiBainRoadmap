@@ -1,0 +1,32 @@
+T-0 (2025-09-15–2025-09-28) — AI Core Foundations
+  Outcomes: RAG MVP; seed/system prompt; basic memory (consent + TTLs)
+  Milestones: Demo: cited answers; memory consent flow live
+  Owner: Product Lead & AI Architect
+  KPIs: P50 ≤1.5s; <1% hallucinations; citation coverage ≥90%
+  Dependencies: KB access; embedding index; auth to tools (read-only)
+  Risks: Stale docs; retrieval misses; latency spikes
+
+T-30 (2025-09-29–2025-10-26) — Chat Baking + Biz Ops Assist
+  Outcomes: Saved-in-chat prefs/snippets; CRM/Jira read; email drafts
+  Milestones: Pilot with 5–10 users; daily ops digest
+  Owner: Ops PM & Backend
+  KPIs: AHT −10%; DAU/WAU ≥50%
+  Dependencies: CRM/Jira connectors; email service
+  Risks: PII in logs; unclear approvals
+
+T-60 (2025-10-27–2025-11-16) — Finance & Creative Add‑ons
+  Outcomes: Market data read; screeners; brand kit + template library
+  Milestones: Beta: earnings center; creative template pack v1
+  Owner: Add‑on PMs (Finance/Creative) & Frontend
+  KPIs: CSAT +0.3; tool error <2%
+  Dependencies: Market data API; DAM access
+  Risks: Licensing limits; brand inconsistency
+
+T-90 (2025-11-17–2025-12-14) — Scale, Safety & Write Actions
+  Outcomes: Write tools behind approvals; audit logs; eval harness
+  Milestones: GA launch; guardrail monitors live
+  Owner: Eng Lead & Compliance
+  KPIs: FCR +10–15%; P95 ≤3.5s; cost/turn ≤$0.02
+  Dependencies: RBAC; audit store; incident playbook
+  Risks: Tool misuse; cost overrun
+
